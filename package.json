@@ -6,8 +6,8 @@
   "homepage": "https://sarthakc.github.io/unsplash-infinite-scroll-typescript",
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html",
-    "prebuild": "npm install"
+    "prebuild": "yarn install",
+    "build": "npx -p parcel-bundler parcel build src/index.html"
   },
   "author": "",
   "license": "ISC",
@@ -15,6 +15,7 @@
     "@types/node": "^14.6.0",
     "cssnano": "^4.1.10",
     "gh-pages": "^3.1.0",
+    "parcel": "^1.12.4",
     "sass": "^1.26.10",
     "typescript": "^4.0.2"
   },
