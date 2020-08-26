@@ -6,7 +6,8 @@
   "homepage": "https://sarthakc.github.io/unsplash-infinite-scroll-typescript",
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "build": "parcel build src/index.html",
+    "prebuild": "npm install"
   },
   "author": "",
   "license": "ISC",
